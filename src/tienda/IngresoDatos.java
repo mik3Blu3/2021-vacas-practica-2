@@ -35,4 +35,10 @@ public class IngresoDatos {
         return res;
     }
     
+    public static boolean getBoolean(String mens, boolean op)
+    {
+        imprimirMensaje(mens);
+        boolean booleanRecibido = scanner.nextBoolean();
+        return booleanRecibido;
+    }
 }
